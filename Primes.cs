@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Prime_Generator
 {
@@ -6,18 +6,17 @@ namespace Prime_Generator
     {
         static void Main(string[] args)
         {
-            /*
             //verify that a single arguement was given
             //and that it was an integer
             if (args.Length != 1)
             {
-                Console.WriteLine("Takes only 1 arguement.");
+                Console.WriteLine("Takes 1 argument.");
                 System.Environment.Exit(1);
             }
             bool is_int = int.TryParse(args[0], out int limit);
             if (!is_int)
             {
-                Console.WriteLine("Takes an integer as an arguement.");
+                Console.WriteLine("Takes an integer as an argument.");
                 System.Environment.Exit(1);
             }
             //verify that limit is above 2
@@ -27,8 +26,6 @@ namespace Prime_Generator
                 System.Environment.Exit(1);
             }
             //now limit is a valid integer
-            */
-            int limit = 1000000000;
 
             Console.WriteLine($"Sieving started.");
 
